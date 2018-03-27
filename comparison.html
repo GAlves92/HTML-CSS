@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/superhero/bootstrap.min.css">
+    <link rel="stylesheet" type='text/css' href="latitude.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <title>Comparison: Latitude vs X</title>
+</head>
+
+<body>
+    <header class="navbar navbar-dark navbar-expand-md">
+        <div class="navbar-brand">
+            <a type="button" class="boo btn btn-info btn-lg" href="index.html">Latitude</a>
+        </div>
+            <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu"><i class="fas fa-bars"></i></button>
+            <div class="navbar-collapse collapse justify-content-end" id="the_menu">
+                <ul class="navbar-nav">
+                    <i class="icon far fa-compass"></i> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Plots</strong></a>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                            <a class="dropdown-item" href="max_temperature.html"><strong>Temperature</strong></a>
+                            <a class="dropdown-item" href="Cloudiness.html"><strong>Cloudiness</strong></a>
+                            <a class="dropdown-item" href="humidity.html"><strong>Humidity</strong></a>
+                            <a class="dropdown-item" href="Wind_speed.html"><strong>Wind Speed</strong></a>
+                        </div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="comparison.html"><strong>Comparison</strong></a>
+                    </li>
+                    <li class="nav-item active">
+                            <div class="container">
+                                    <div class="row">
+                                        <a class="nav-link" href="convertcsv.htm"><strong>Data</strong></a>
+                                    </div>
+                            </div>
+                    </li>
+                </ul>
+        </div>
+    </header> 
+</body>
+
+<body>
+  <head>
+    <div class="container">
+      <div class="row">
+        <h1 class='temp h1 col-sm-6 col-md-6 col-lg-6 col-xs-6 text-center'>Comparison: Latitude vs X</h1><br>
+      </div>
+        <br>
+          <p class="text text-center">Click any plot to get an in-depth analysis:</p> 
+        <div class="container">
+          <div class="row">
+              <div class="temp">
+                <h1>vs. Max Temperature</h1><br>
+                  <a href="max_temperature.html">
+                    <img src="weather_plot_1.png" class="temp text-left" style="width: 180%; height: 50%" alt="Plot 1!"/><br>
+                  </a>
+              </div>
+        <div class="container">
+            <div class="row">
+                <div class="temp">
+                  <h1>vs. Humidity</h1><br>
+                    <a href="humidity.html">
+                      <img src="weather_plot_2.png" class="temp float-left" style="width: 180%; height: 50%" alt="Plot 2!"/><br>
+                    </a>
+                </div>
+        <div class="container">
+            <div class="row">
+                <div class="temp">
+                  <h1>vs. Cloudiness</h1><br>
+                    <a href="Cloudiness.html">
+                      <img src="weather_plot_3.png" class="temp" style="width: 180%; height: 50%" alt="Plot 3!"/>
+                    </a>
+                </div>
+        <div class="container">
+            <div class="row">
+                <div class="temp">
+                  <h1>vs. Wind Speed</h1><br>
+                    <a href="Wind_speed.html">
+                      <img src="weather_plot_4.png" class="temp" style="width: 180%; height: 50%" alt="Plot 4!"/> 
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</head>
+</body>
+</html>

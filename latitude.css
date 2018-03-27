@@ -1,0 +1,109 @@
+.icon {
+  font-size: 50px;
+  padding: 7px;
+  margin-right: 2px;
+  margin-left: 1px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.boo {
+  font-size: 20px;
+  padding: 15px;
+  margin-right: 5px;
+  margin-left: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.table {
+  font-size: 18px;
+  padding: 5px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  left:15%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.plt1 {
+  cursor: pointer;
+  padding: 20px;
+  width:70%;
+  height:80%;
+  right:0%;
+  border-radius: 5px;
+  display: inline-block;
+  background: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.plt2 {
+  cursor: pointer;
+  text-align: center;
+  font-size: 100px; 
+  padding: 5px;
+  width:60%;
+  height:50%;
+  left:0.5%;
+  border-radius: 5px;
+  display: inline-block;
+  background: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown-item {
+  font-size: 15px; 
+}
+
+.nav-link {
+  font-size: 17px; 
+}
+
+.text {
+  text-align: left;
+}
+
+.temp {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  padding:20px;
+  width:30%;
+  height:60%;
+  left:25%;
+  display: inline-block;
+}
+
+.plt3 {
+  font-size: 30px; 
+  padding: 10px;
+  width:60%;
+  height:80%;
+  left:16%;
+  border-radius: 10px;
+  display: inline-block;
+  background: black;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1 {
+  border-bottom: 2px solid white;
+}
