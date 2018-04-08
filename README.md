@@ -14,4 +14,6 @@ You will be able to visualize:
 •	Four pages displaying each individual plot. 
 
 Check out my work at:
+
+
 https://galves92.github.io/HTML-CSS/
